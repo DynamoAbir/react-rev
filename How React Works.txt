@@ -1,0 +1,25 @@
+React Started at 2013. it's old name is faxjs.
+React actually bring 2 script with it. 
+1. React
+2. React Dom
+
+React: React genarate HTML
+React-Dom: will render in dom (in Root)
+
+            HOW TO USE
+
+to use react we will take the rootdiv using querySelector("ROOT")
+
+ReactDom.render()--- ReactDom.render() will take 2 perameter. First
+perameter will take "What to render" and 2nd one will take "where to render"
+which is the root element.
+
+react gives us some usefull function one of them is createElement().
+createElement()- will take 3 pera meter "what to create","what is property,
+"what should be inside the element" .. example given below
+
+const myElemnet=react.createElement("div",null,"Hello world");
+if we want to render anything inside that element we will pass it into the 
+third perameter.
+
+whatever we insert in {} in react its called interpolation
